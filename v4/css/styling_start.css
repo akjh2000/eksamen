@@ -1,0 +1,85 @@
+.start {
+    background-color: #2D4A09;
+}
+*{
+    font-family: Arial;
+}
+.img-fluid{
+    margin-left: -5%;
+    display: flex;
+    position: absolute; 
+}
+.logo {
+    z-index: 10;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+}
+.forældre{
+    margin-top: 30%;
+    color: white;
+}
+.col-md-4 {
+    position: relative;
+}
+h1 {
+    text-align: center;
+    background-color: #2d4a0971;
+}
+p{
+    background-color: #2d4a0971;
+}
+.knap {
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #ffffff59;
+    color: black;
+    padding: 8px 25px;
+    font-size: 20px;
+  }
+  .knap2 {
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #ffffff59;
+    color: black;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.knap3{
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #ffffff59;
+    color: black;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+  .knap1 {
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+  }
+  .knap1:hover {
+    color: white;
+  }
+.default:hover {
+    background: #1e770880;
+  }
+.default {
+    border-color: #e7e7e769;
+}  
+.tekst {
+    font-size: 18px;
+}
+.tekst2 {
+    color: white;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.hjørne {
+    color: rgb(148, 148, 148);
+    font-size: 13px;
+    text-align: right;
+    margin-top: 30%;
+}

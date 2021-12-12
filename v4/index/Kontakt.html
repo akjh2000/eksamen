@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Width=device=width,initial-scale=1.0">
+    <title>Ak Deigns</title>
+    <link rel="icon" href="/v4/Billeder/sort_ai_2.png" type="image/icon type">
+    <link rel="stylesheet" href="/v4/css/Kontakt.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="start">
+  <div class="topnav" id="myTopnav">
+    <a href="/v4/index.html" class="active"><img src="/v4/Billeder/hvid_ai_navn.png" alt="hjem" width="40px"></a>
+    <a href="/v4/index/Portfolio.html">Portfolio</a>
+    <a href="/v4/index/Om_mig.html">Om mig</a>
+    <a href="/v4/index/Kontakt.html">Kontakt</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<div class="tekst">
+  <div class="overskrift">
+  <h1 class="h1">Kontakt</h1>
+  <h4>Her kan du se de medier du kan følge mig på, </h4>
+  <h4> og hvis du ønsker at kontakte mig er der en kontakt formular.</h4>
+</div>
+<div class="container-fluid">
+  <div class="row">
+          <div class="col-md-6">
+            <h5>Følg mig</h5>
+            <div class="links" >
+            <a href="https://www.facebook.com/annekatrinejuel.hansen/"> <img src="/v4/Billeder/facebook_icon.png" alt="fb" width="5%"> Anne-Katrine Duvall Hansen</a>
+            <p><img src="/v4/Billeder/snapchat_icon.png" alt="snap" width="5%"> a-k2000</p>
+            <a href="https://www.instagram.com/anne_katty/"><img src="/v4/Billeder/instagram_icon.png" alt="ig" width="5%"> @anne_katty</a>  
+          </div>
+          </div>
+            <div class="col-md-4">
+              <img src="/v4/Billeder/tlfopkald.jpg" alt="opkald" width="100%" class="opkald">
+            </div>
+  </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+
+
+      <h3 class="h3">Kontakt Formular</h3>
+
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">Fornavn</label>
+          <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+      
+          <label for="lname">Efternavn</label>
+          <input type="text" id="lname" name="lastname" placeholder="Dit efternavn..">
+      
+          <label for="country">Emne</label>
+          <select id="country" name="country">
+            <option value="australia">Arbejde</option>
+            <option value="canada">Sprøgsmål</option>
+            <option value="usa">Andet</option>
+          </select>
+      
+          <label for="subject">Beskiv dit emne</label>
+          <textarea id="subject" name="subject" placeholder="Skriv.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      <div class="hjørne">
+        <p><a href="/v4/index/Kontakt.html">Kontakt mig</a> @2021 </p>
+    </div>
+</body>
+</html>
